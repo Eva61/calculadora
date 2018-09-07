@@ -1,0 +1,40 @@
+.calculadora{
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 20px;
+	background: rgba(252,236,252,1);
+	background: -moz-linear-gradient(left, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(252,236,252,1)), color-stop(50%, rgba(251,166,225,1)), color-stop(51%, rgba(253,137,215,1)), color-stop(100%, rgba(255,124,216,1)));
+	background: -webkit-linear-gradient(left, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+	background: -o-linear-gradient(left, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+	background: -ms-linear-gradient(left, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+	background: linear-gradient(to right, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8', GradientType=1 );
+	width: 300px;
+	height: 450px;
+	border: 1px solid #EA7DDA;
+	border-radius: 25px;
+	box-shadow: 0 0 20px #24A3A3;
+}
+.calculadora td button{
+	display: block;
+	width: 70px;
+	height: 70px;
+	border-radius: 15px;
+	font-size: 25px;
+	border: 1px solid #000;
+	box-shadow: 0 0 20px #24A3A3;
+}
+#resultado{
+	display: block;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 50px;
+	width: 300px;
+	height: 100px;
+	line-height: 100px;
+	background-color: #fff;
+	border-radius: 25px;
+	overflow-y: scroll; 
+}
